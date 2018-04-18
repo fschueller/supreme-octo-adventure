@@ -22,7 +22,7 @@ process_count: 1
 # ssl_key_file:
 # ssl_cert_file:
 redis_url: "redis://localhost:6379"
-database_url: postgres://postgres:@localhost:5432/supreme_octo_adventure_development
+database_url: sqlite3:./db/supreme_octo_adventure_development.db
 session:
   key: amber.session
   store: signed_cookie
@@ -34,4 +34,3 @@ smtp:
 
 secrets:
   description: Store your development secrets credentials and settings here.
-
