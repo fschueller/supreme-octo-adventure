@@ -59,3 +59,4 @@ docker-compose logs -f
 ## Contributors
 
 - [your-github-user](https://github.com/your-github-user) Farah Schueller - creator, maintainer
+- alfredtestuser for....test purposes.
